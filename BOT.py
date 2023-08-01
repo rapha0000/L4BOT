@@ -38,13 +38,13 @@ async def info(ctx): #info é o comando que ativa o embed title = titulo da msg.
 
 	embed1.set_author(name= 'Informações',
 
-	icon_url='https://pa1.narvii.com/6213/57dd83feacd8e68f3d78488b2273bce1d0d6852d_hq.gif') #Link do gif ou foto para seu embed
+	icon_url='<iframe src="https://giphy.com/embed/iUioRia66dyc3gF0lN" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/SportsManias-sports-world-cup-sportsmanias-iUioRia66dyc3gF0lN">via GIPHY</a></p>') #Link do gif ou foto para seu embed
 
 	await ctx.send(embed = embed1,delete_after=10) #o 10 determina em quantos segundos a mensagem vai sumir
 
 #fim
 
-bot.run('SEU TOKEN')
+bot.run('MTEzNTE3Nzc0NDkzMDU5MDg1MQ.GTF3Kn.EfJ6RbIhz-HfLKewSpb_5V1Y8ZX6lZNK7Dc1jY')
 
 #AJUDA
 
